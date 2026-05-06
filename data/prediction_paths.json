@@ -1,7 +1,7 @@
 [
   {
     "archetype_id": "arch_caregiver",
-    "school_id": 40,
+    "school_id": "jpms_s_0040",
     "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
     "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.81, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.68, \"market\": 0.63}",
     "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
@@ -10,7 +10,7 @@
   },
   {
     "archetype_id": "arch_caregiver",
-    "school_id": 49,
+    "school_id": "jpms_s_0049",
     "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
     "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.81, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.68, \"market\": 0.63}",
     "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
@@ -19,7 +19,7 @@
   },
   {
     "archetype_id": "arch_creator",
-    "school_id": 22,
+    "school_id": "jpms_s_0022",
     "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
     "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.68, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.81, \"market\": 0.63}",
     "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
@@ -28,7 +28,7 @@
   },
   {
     "archetype_id": "arch_creator",
-    "school_id": 24,
+    "school_id": "jpms_s_0024",
     "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
     "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.68, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.81, \"market\": 0.63}",
     "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
@@ -37,7 +37,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 53,
+    "school_id": "jpms_s_0063",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.91, \"social_emotional\": 0.78, \"values\": 0.73, \"agency\": 0.73, \"wellbeing\": 0.73, \"creativity\": 0.78, \"market\": 0.73}",
     "confidence_interval": "{\"lower\": 0.7474999999999999, \"upper\": 0.9525}",
@@ -46,7 +46,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
     "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
@@ -55,7 +55,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
     "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
@@ -64,7 +64,7 @@
   },
   {
     "archetype_id": "arch_caregiver",
-    "school_id": 4,
+    "school_id": "jpms_s_0004",
     "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -73,7 +73,7 @@
   },
   {
     "archetype_id": "arch_caregiver",
-    "school_id": 7,
+    "school_id": "jpms_s_0007",
     "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -82,7 +82,7 @@
   },
   {
     "archetype_id": "arch_caregiver",
-    "school_id": 9,
+    "school_id": "jpms_s_0009",
     "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -91,7 +91,7 @@
   },
   {
     "archetype_id": "arch_craftsman",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -100,7 +100,7 @@
   },
   {
     "archetype_id": "arch_craftsman",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -109,7 +109,7 @@
   },
   {
     "archetype_id": "arch_craftsman",
-    "school_id": 3,
+    "school_id": "jpms_s_0003",
     "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -118,7 +118,7 @@
   },
   {
     "archetype_id": "arch_creator",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -127,7 +127,7 @@
   },
   {
     "archetype_id": "arch_creator",
-    "school_id": 4,
+    "school_id": "jpms_s_0004",
     "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
     "estimated_outcomes": "{\"cognitive\": 0.56, \"social_emotional\": 0.56, \"values\": 0.51, \"agency\": 0.51, \"wellbeing\": 0.51, \"creativity\": 0.69, \"market\": 0.51}",
     "confidence_interval": "{\"lower\": 0.43124999999999997, \"upper\": 0.71875}",
@@ -136,7 +136,7 @@
   },
   {
     "archetype_id": "arch_creator",
-    "school_id": 5,
+    "school_id": "jpms_s_0005",
     "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
     "estimated_outcomes": "{\"cognitive\": 0.56, \"social_emotional\": 0.56, \"values\": 0.51, \"agency\": 0.51, \"wellbeing\": 0.51, \"creativity\": 0.69, \"market\": 0.51}",
     "confidence_interval": "{\"lower\": 0.43124999999999997, \"upper\": 0.71875}",
@@ -145,7 +145,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 53,
+    "school_id": "jpms_s_0063",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.91, \"social_emotional\": 0.78, \"values\": 0.73, \"agency\": 0.73, \"wellbeing\": 0.73, \"creativity\": 0.78, \"market\": 0.73}",
     "confidence_interval": "{\"lower\": 0.7474999999999999, \"upper\": 0.9525}",
@@ -154,7 +154,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
     "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
@@ -163,7 +163,7 @@
   },
   {
     "archetype_id": "arch_explorer",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
     "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
     "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
@@ -172,7 +172,7 @@
   },
   {
     "archetype_id": "arch_introvert_thinker",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
     "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -181,7 +181,7 @@
   },
   {
     "archetype_id": "arch_introvert_thinker",
-    "school_id": 22,
+    "school_id": "jpms_s_0022",
     "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
     "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -190,7 +190,7 @@
   },
   {
     "archetype_id": "arch_introvert_thinker",
-    "school_id": 24,
+    "school_id": "jpms_s_0024",
     "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
     "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -199,7 +199,7 @@
   },
   {
     "archetype_id": "arch_leader",
-    "school_id": 4,
+    "school_id": "jpms_s_0004",
     "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -208,7 +208,7 @@
   },
   {
     "archetype_id": "arch_leader",
-    "school_id": 7,
+    "school_id": "jpms_s_0007",
     "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -217,7 +217,7 @@
   },
   {
     "archetype_id": "arch_leader",
-    "school_id": 9,
+    "school_id": "jpms_s_0009",
     "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -226,7 +226,7 @@
   },
   {
     "archetype_id": "arch_mediator",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -235,7 +235,7 @@
   },
   {
     "archetype_id": "arch_mediator",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -244,7 +244,7 @@
   },
   {
     "archetype_id": "arch_mediator",
-    "school_id": 3,
+    "school_id": "jpms_s_0003",
     "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -253,7 +253,7 @@
   },
   {
     "archetype_id": "arch_social_creator",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -262,7 +262,7 @@
   },
   {
     "archetype_id": "arch_social_creator",
-    "school_id": 2,
+    "school_id": "jpms_s_0002",
     "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -271,7 +271,7 @@
   },
   {
     "archetype_id": "arch_social_creator",
-    "school_id": 3,
+    "school_id": "jpms_s_0003",
     "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -280,7 +280,7 @@
   },
   {
     "archetype_id": "arch_steady",
-    "school_id": 1,
+    "school_id": "jpms_s_0001",
     "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -289,7 +289,7 @@
   },
   {
     "archetype_id": "arch_steady",
-    "school_id": 3,
+    "school_id": "jpms_s_0003",
     "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -298,7 +298,7 @@
   },
   {
     "archetype_id": "arch_steady",
-    "school_id": 4,
+    "school_id": "jpms_s_0004",
     "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
     "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
     "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
@@ -307,7 +307,7 @@
   },
   {
     "archetype_id": "arch_warrior",
-    "school_id": 4,
+    "school_id": "jpms_s_0004",
     "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -316,7 +316,7 @@
   },
   {
     "archetype_id": "arch_warrior",
-    "school_id": 9,
+    "school_id": "jpms_s_0009",
     "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
@@ -325,7 +325,7 @@
   },
   {
     "archetype_id": "arch_warrior",
-    "school_id": 13,
+    "school_id": "jpms_s_0013",
     "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
     "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
     "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",

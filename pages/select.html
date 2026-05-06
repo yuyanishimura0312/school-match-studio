@@ -76,11 +76,32 @@
 
 <div class="split-panel">
 <div class="school-list">
-<h3>学校カタログ <span style="font-family:var(--font); font-size:0.75rem; color:var(--text-muted); font-weight:normal;">(60校)</span></h3>
+<h3>学校カタログ <span style="font-family:var(--font); font-size:0.75rem; color:var(--text-muted); font-weight:normal;">(<span id="result-count">0</span>/<span id="total-count">0</span>校)</span></h3>
 <div class="filter-bar">
   <input type="text" id="search-input" placeholder="学校名で検索..." style="flex: 1; min-width: 180px;">
-  <select id="prefecture-filter" style="min-width: 120px;">
+  <select id="prefecture-filter" style="min-width: 110px;">
     <option value="">全都道府県</option>
+  </select>
+  <select id="gender-filter" style="min-width: 100px;">
+    <option value="">男女別なし</option>
+    <option value="boys">男子校</option>
+    <option value="girls">女子校</option>
+    <option value="coed">共学</option>
+  </select>
+  <select id="religion-filter" style="min-width: 110px;">
+    <option value="">宗教指定なし</option>
+    <option value="non_religious">無宗教</option>
+    <option value="catholic">カトリック</option>
+    <option value="protestant">プロテスタント</option>
+    <option value="anglican">聖公会</option>
+    <option value="buddhist">仏教</option>
+  </select>
+  <select id="integrated-filter" style="min-width: 110px;">
+    <option value="">付属指定なし</option>
+    <option value="attached">大学付属</option>
+    <option value="full">完全中高一貫</option>
+    <option value="linked">連携型</option>
+    <option value="none">独立</option>
   </select>
 </div>
 <div class="school-grid" id="school-grid"></div>
@@ -121,22 +142,32 @@ function initFilters() {
     const o = document.createElement("option");
     o.value = p; o.textContent = p; sel.appendChild(o);
   });
-  document.getElementById("search-input").addEventListener("input", render);
-  document.getElementById("prefecture-filter").addEventListener("change", render);
+  document.getElementById("total-count").textContent = SCHOOLS.length;
+  ["search-input","prefecture-filter","gender-filter","religion-filter","integrated-filter"].forEach(id => {
+    document.getElementById(id).addEventListener("input", render);
+    document.getElementById(id).addEventListener("change", render);
+  });
 }
 
 function render() {
   const search = document.getElementById("search-input").value.toLowerCase();
   const pref = document.getElementById("prefecture-filter").value;
+  const gender = document.getElementById("gender-filter").value;
+  const religion = document.getElementById("religion-filter").value;
+  const integrated = document.getElementById("integrated-filter").value;
   const filtered = SCHOOLS.filter(s =>
-    (!search || s.school_name.toLowerCase().includes(search)) &&
-    (!pref || s.prefecture === pref)
+    (!search || s.school_name.toLowerCase().includes(search) || (s.name_kana||"").includes(search)) &&
+    (!pref || s.prefecture === pref) &&
+    (!gender || s.gender_type === gender) &&
+    (!religion || s.religion === religion) &&
+    (!integrated || s.integrated_type === integrated)
   );
+  document.getElementById("result-count").textContent = filtered.length;
 
   document.getElementById("school-grid").innerHTML = filtered.map(s => {
     const isCandidate = candidates.includes(s.id);
     const isFC = firstChoices.includes(s.id);
-    return `<div class="school-card ${isCandidate ? "selected" : ""} ${isFC ? "first-choice" : ""}" onclick="toggleSchool(${s.id})">
+    return `<div class="school-card ${isCandidate ? "selected" : ""} ${isFC ? "first-choice" : ""}" onclick="toggleSchool('${s.id}')">
       <div class="name">${s.school_name}</div>
       <div class="meta">${s.prefecture || ""}</div>
       ${isFC ? '<div class="badge-fc">第一志望</div>' : ""}
@@ -154,8 +185,8 @@ function render() {
     return `<div class="cart-item ${isFC ? "first-choice" : ""}">
       <span>${s.school_name}<small style="color:var(--text-muted); margin-left:4px;">${s.prefecture||""}</small></span>
       <div class="actions">
-        <button class="fc-btn ${isFC ? "active" : ""}" onclick="toggleFC(${id}); event.stopPropagation();" title="第一志望">★</button>
-        <button onclick="removeSchool(${id}); event.stopPropagation();" title="削除">✕</button>
+        <button class="fc-btn ${isFC ? "active" : ""}" onclick="toggleFC('${id}'); event.stopPropagation();" title="第一志望">★</button>
+        <button onclick="removeSchool('${id}'); event.stopPropagation();" title="削除">✕</button>
       </div>
     </div>`;
   }).join("") || '<p class="help-text">候補校を追加してください</p>';

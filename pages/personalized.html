@@ -136,7 +136,7 @@ function renderTabs() {
   let html = `<div class="school-tabs" id="tabs">`;
   fcSchools.forEach((s, i) => {
     const status = cachedReports[s.id] ? "✓" : "未生成";
-    html += `<div class="school-tab ${i===0?"active":""}" data-school-id="${s.id}" onclick="switchTab(${s.id})">${s.school_name}<span class="status">${status}</span></div>`;
+    html += `<div class="school-tab ${i===0?"active":""}" data-school-id="${s.id}" onclick="switchTab('${s.id}')">${s.school_name}<span class="status">${status}</span></div>`;
   });
   html += `</div>`;
   fcSchools.forEach((s, i) => {
@@ -151,12 +151,12 @@ function renderReportArea(school) {
     return `<h3>${school.school_name} × ${ARCHETYPE_NAMES[inference.primary_archetype]}型 人格適合レポート</h3>
       ${cached}
       <div style="margin-top:16px;">
-        <button class="btn" onclick="regenerate(${school.id})">再生成</button>
+        <button class="btn" onclick="regenerate('${school.id}')">再生成</button>
       </div>`;
   }
   return `<div class="empty-report">
     <p>${school.school_name}についての人格適合レポートはまだ生成されていません</p>
-    <button class="generate-btn" onclick="generate(${school.id})">この学校のレポートを生成</button>
+    <button class="generate-btn" onclick="generate('${school.id}')">この学校のレポートを生成</button>
     <div class="loading" id="loading-${school.id}">Claude が分析中...</div>
     <div class="error-msg" id="error-${school.id}"></div>
   </div>`;
@@ -223,7 +223,7 @@ function renderAddSection() {
 
 async function addAndGenerate() {
   const select = document.getElementById("add-school-select");
-  const id = parseInt(select.value);
+  const id = select.value;
   if (!id) { alert("学校を選択してください"); return; }
   if (!firstChoices.includes(id)) {
     firstChoices.push(id);

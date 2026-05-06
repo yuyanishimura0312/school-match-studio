@@ -124,7 +124,7 @@ function renderReports() {
 
   document.getElementById("content").innerHTML = html;
   document.getElementById("tabs").innerHTML = fcSchools.map((s,i)=>
-    `<div class="school-tab ${i===0?"active":""}" onclick="switchTab(${s.id})">${s.school_name}</div>`
+    `<div class="school-tab ${i===0?"active":""}" onclick="switchTab('${s.id}')">${s.school_name}</div>`
   ).join("");
 }
 
