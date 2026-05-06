@@ -22,6 +22,9 @@ schools_rows = jpms.execute("""
            t.typology_class, t.posterior_prob
     FROM schools_v2 s
     LEFT JOIN school_typology_lca t ON s.id = t.school_id
+    WHERE s.id NOT LIKE 'NATIONAL_AGG%'
+      AND s.name_ja NOT LIKE '\\_%' ESCAPE '\\'
+      AND s.name_ja IS NOT NULL
 """).fetchall()
 
 # 各校の culture_score を集計（10次元）
