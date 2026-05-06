@@ -6,6 +6,7 @@
 <title>5校レポート | School Match Studio</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/textbook.css">
+<link rel="stylesheet" href="../css/benchmark-report.css">
 <style>
 .app-layout { max-width: 1100px; margin: 0 auto; padding: 32px 24px 100px; }
 .step-indicator { display: flex; gap: 4px; margin-bottom: 24px; }
@@ -89,13 +90,15 @@ if (firstChoices.length === 0) {
       <a href="select.html" class="btn primary">候補校選択へ</a>
     </div>`;
 } else {
+  document.getElementById("content").innerHTML = '<p style="text-align:center;padding:60px;color:var(--text-muted);font-family:var(--font);">レポートデータを読み込んでいます...</p>';
   Promise.all([
     fetch("../data/schools.json").then(r=>r.json()),
     fetch("../data/archetypes.json").then(r=>r.json()),
     fetch("../data/school_archetype_fit.json").then(r=>r.json()),
     fetch("../data/school_era_fit.json").then(r=>r.json()),
     fetch("../data/eminent_profiles.json").then(r=>r.json()),
-    fetch("../data/prediction_paths.json").then(r=>r.json())
+    fetch("../data/prediction_paths.json").then(r=>r.json()),
+    loadReportData()
   ]).then(([s,a,f,ef,em,pp]) => {
     SCHOOLS = s; ARCHETYPES = a; FITS = f; ERA_FITS = ef; EMINENTS = em; PATHS = pp;
     renderReports();
