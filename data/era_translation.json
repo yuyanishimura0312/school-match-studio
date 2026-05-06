@@ -1,0 +1,482 @@
+[
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_explorer from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_explorer from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_explorer from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_explorer from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_explorer from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_explorer from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_creator from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_creator from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_creator from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_creator from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_creator from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_creator",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_creator from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_leader from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_leader from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_leader from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_leader from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_leader from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_leader",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_leader from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_caregiver from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_caregiver from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_caregiver from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_caregiver from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_caregiver from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_caregiver from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_warrior from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_warrior from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_warrior from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_warrior from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_warrior from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_warrior from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_mediator from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_mediator from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_mediator from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_mediator from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_mediator from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_mediator from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_craftsman from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_craftsman from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_craftsman from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_craftsman from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_craftsman from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_craftsman from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_introvert_thinker from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_introvert_thinker from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_introvert_thinker from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_introvert_thinker from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_introvert_thinker from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_introvert_thinker from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_social_creator from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_social_creator from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_social_creator from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_social_creator from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_social_creator from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_social_creator from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "meiji",
+    "target_era": "reiwa",
+    "translation_factor": 0.65,
+    "summary": "Time-adapted version of arch_steady from meiji to reiwa",
+    "cautions": "Contextualize meiji values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "taisho",
+    "target_era": "reiwa",
+    "translation_factor": 0.7,
+    "summary": "Time-adapted version of arch_steady from taisho to reiwa",
+    "cautions": "Contextualize taisho values and norms when applying to reiwa. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "showa_pre",
+    "target_era": "heisei",
+    "translation_factor": 0.75,
+    "summary": "Time-adapted version of arch_steady from showa_pre to heisei",
+    "cautions": "Contextualize showa_pre values and norms when applying to heisei. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "showa_post",
+    "target_era": "future_2030",
+    "translation_factor": 0.8,
+    "summary": "Time-adapted version of arch_steady from showa_post to future_2030",
+    "cautions": "Contextualize showa_post values and norms when applying to future_2030. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "heisei",
+    "target_era": "future_2050",
+    "translation_factor": 0.6,
+    "summary": "Time-adapted version of arch_steady from heisei to future_2050",
+    "cautions": "Contextualize heisei values and norms when applying to future_2050. Account for technological and social shifts."
+  },
+  {
+    "archetype_id": "arch_steady",
+    "source_era": "reiwa",
+    "target_era": "future_2100",
+    "translation_factor": 0.55,
+    "summary": "Time-adapted version of arch_steady from reiwa to future_2100",
+    "cautions": "Contextualize reiwa values and norms when applying to future_2100. Account for technological and social shifts."
+  }
+]

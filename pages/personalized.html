@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人格適合レポート | School Match Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/textbook.css">
+<style>
+.app-layout { max-width: 1100px; margin: 0 auto; padding: 32px 24px 100px; }
+.step-indicator { display: flex; gap: 4px; margin-bottom: 24px; }
+.step { flex: 1; padding: 8px 12px; font-family: var(--font); font-size: 0.7rem; text-align: center; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface); }
+.step.active { background: var(--accent-warm); color: white; border-color: var(--accent-warm); }
+.step.done { color: var(--accent-warm); border-color: var(--accent-warm); }
+
+.profile-summary { background: var(--accent-muted); border-left: 3px solid var(--accent-warm); padding: 16px 20px; margin: 16px 0; }
+.profile-summary h3 { font-family: var(--font-serif); font-size: 1.05rem; margin-bottom: 6px; }
+.profile-summary .badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.profile-summary .badge { padding: 3px 10px; background: var(--bg); border: 1px solid var(--accent-warm); color: var(--accent-warm); font-family: var(--font); font-size: 0.72rem; }
+.profile-summary .bf { font-family: monospace; font-size: 0.78rem; color: var(--text-secondary); margin-top: 6px; }
+
+.school-tabs { display: flex; gap: 4px; margin: 20px 0 0; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+.school-tab { padding: 10px 16px; font-family: var(--font); font-size: 0.82rem; cursor: pointer; border: 1px solid var(--border); border-bottom: none; background: var(--surface); color: var(--text-secondary); }
+.school-tab.active { background: var(--bg); color: var(--accent-warm); font-weight: 700; border-bottom: 2px solid var(--accent-warm); margin-bottom: -1px; }
+.school-tab .status { font-size: 0.65rem; margin-left: 4px; opacity: 0.7; }
+
+.report-section { display: none; padding: 16px 0; }
+.report-section.active { display: block; }
+.report-section h3 { font-family: var(--font-serif); font-size: 1.2rem; padding-bottom: 8px; border-bottom: 2px solid var(--accent-warm); margin: 28px 0 14px; }
+.report-section h4 { font-family: var(--font); font-weight: 700; font-size: 0.95rem; margin: 16px 0 10px; color: var(--accent-warm); }
+.report-section p { font-family: var(--font-serif); font-size: 0.92rem; line-height: 1.85; margin-bottom: 1em; text-align: justify; }
+
+.generate-btn { background: var(--accent-warm); color: white; border: none; padding: 14px 24px; font-family: var(--font); font-weight: 700; cursor: pointer; }
+.generate-btn:hover:not(:disabled) { opacity: 0.85; }
+.generate-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.loading { display: none; padding: 16px; text-align: center; color: var(--text-muted); font-family: var(--font); font-size: 0.85rem; }
+.loading.active { display: block; }
+
+.add-school-section { margin: 32px 0; padding: 20px; background: var(--surface); border: 1px solid var(--border); }
+.add-school-section h3 { font-family: var(--font-serif); font-size: 1.05rem; margin-bottom: 8px; }
+.add-school-section .controls { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
+.add-school-section select { padding: 8px 10px; font-family: var(--font); font-size: 0.82rem; border: 1px solid var(--border); background: var(--bg); color: var(--text); flex: 1; min-width: 200px; }
+
+.btn { padding: 10px 18px; font-family: var(--font); font-weight: 600; font-size: 0.82rem; cursor: pointer; border: 1px solid var(--accent-warm); background: var(--bg); color: var(--accent-warm); text-decoration: none; }
+.btn.primary { background: var(--accent-warm); color: white; }
+.btn:hover:not(:disabled) { opacity: 0.85; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.bottom-actions { display: flex; gap: 12px; margin-top: 32px; padding: 20px 0; border-top: 1px solid var(--border); }
+
+.error-msg { padding: 12px 16px; background: rgba(204,20,0,0.1); border: 1px solid var(--accent-warm); color: var(--accent-warm); font-family: var(--font); font-size: 0.82rem; margin: 12px 0; display: none; }
+.error-msg.active { display: block; }
+
+.empty-report { text-align: center; padding: 40px 20px; color: var(--text-muted); font-family: var(--font); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readingProgress"></div>
+<header class="top-bar">
+  <div class="top-bar-brand"><a href="../index.html" style="color: inherit; text-decoration: none;"><span>School Match Studio</span></a></div>
+  <div class="top-bar-actions">
+    <a href="confirm.html" class="back-link">&#8592; プロファイル確認</a>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">DARK</button>
+  </div>
+</header>
+
+<div class="app-layout">
+
+<div class="step-indicator">
+  <div class="step done">1. 候補校</div>
+  <div class="step done">2. 第一志望5校</div>
+  <div class="step done">3. レポート閲覧</div>
+  <div class="step done">4. 子どもの特徴</div>
+  <div class="step active">5. 人格適合</div>
+</div>
+
+<h1 class="book-title" style="margin-bottom: 8px;">人格適合レポート</h1>
+<p style="font-family: var(--font); font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px; line-height: 1.7;">確定した人格プロファイルと第一志望群5校の適合性についての追加レポートです。各校タブから「生成」ボタンを押してClaude APIで個別レポートを作成します。</p>
+
+<div id="profile-display"></div>
+<div id="content"></div>
+
+</div>
+
+<script src="../css/textbook-init.js"></script>
+<script src="../js/personality-ai.js"></script>
+<script>
+let SCHOOLS = [], FITS = [], EMINENTS = {};
+const ARCHETYPE_NAMES = {
+  arch_explorer: "探究者", arch_creator: "創造者", arch_leader: "リーダー型",
+  arch_caregiver: "養育者", arch_warrior: "挑戦者", arch_mediator: "調停者",
+  arch_craftsman: "職人型", arch_introvert_thinker: "内省思索者",
+  arch_social_creator: "社交創造者", arch_steady: "堅実型"
+};
+
+const sel = JSON.parse(localStorage.getItem("sms_selection") || "{}");
+const candidates = sel.candidates || [];
+const firstChoices = sel.firstChoices || [];
+const inference = JSON.parse(localStorage.getItem("sms_personality_inference") || "{}");
+const apiKey = localStorage.getItem("sms_api_key") || "";
+const cachedReports = JSON.parse(localStorage.getItem("sms_personalized_reports") || "{}");
+
+if (firstChoices.length === 0 || !inference.primary_archetype) {
+  document.getElementById("content").innerHTML = `<p>必要なデータが揃っていません。<a href="select.html">候補校選択</a>と<a href="personality.html">人格入力</a>を完了してください。</p>`;
+} else {
+  Promise.all([
+    fetch("../data/schools.json").then(r=>r.json()),
+    fetch("../data/school_archetype_fit.json").then(r=>r.json()),
+    fetch("../data/eminent_profiles.json").then(r=>r.json())
+  ]).then(([s, f, e]) => {
+    SCHOOLS = s; FITS = f; EMINENTS = e;
+    renderProfile();
+    renderTabs();
+    renderAddSection();
+  });
+}
+
+function renderProfile() {
+  const arch = ARCHETYPE_NAMES[inference.primary_archetype];
+  const sec = inference.secondary_archetype ? ARCHETYPE_NAMES[inference.secondary_archetype] : null;
+  const bf = inference.big_five || {};
+  document.getElementById("profile-display").innerHTML = `
+    <div class="profile-summary">
+      <h3>確定した人格プロファイル</h3>
+      <div class="badges">
+        <span class="badge">主要：${arch}</span>
+        ${sec ? `<span class="badge">副次：${sec}</span>` : ""}
+        <span class="badge">確信度 ${(inference.primary_confidence*100).toFixed(0)}%</span>
+      </div>
+      <div class="bf">Big Five: O=${bf.O||"-"} C=${bf.C||"-"} E=${bf.E||"-"} A=${bf.A||"-"} N=${bf.N||"-"}</div>
+    </div>`;
+}
+
+function renderTabs() {
+  const fcSchools = firstChoices.map(id => SCHOOLS.find(s=>s.id===id)).filter(Boolean);
+  let html = `<div class="school-tabs" id="tabs">`;
+  fcSchools.forEach((s, i) => {
+    const status = cachedReports[s.id] ? "✓" : "未生成";
+    html += `<div class="school-tab ${i===0?"active":""}" data-school-id="${s.id}" onclick="switchTab(${s.id})">${s.school_name}<span class="status">${status}</span></div>`;
+  });
+  html += `</div>`;
+  fcSchools.forEach((s, i) => {
+    html += `<div class="report-section ${i===0?"active":""}" data-school-id="${s.id}">${renderReportArea(s)}</div>`;
+  });
+  document.getElementById("content").innerHTML = html;
+}
+
+function renderReportArea(school) {
+  const cached = cachedReports[school.id];
+  if (cached) {
+    return `<h3>${school.school_name} × ${ARCHETYPE_NAMES[inference.primary_archetype]}型 人格適合レポート</h3>
+      ${cached}
+      <div style="margin-top:16px;">
+        <button class="btn" onclick="regenerate(${school.id})">再生成</button>
+      </div>`;
+  }
+  return `<div class="empty-report">
+    <p>${school.school_name}についての人格適合レポートはまだ生成されていません</p>
+    <button class="generate-btn" onclick="generate(${school.id})">この学校のレポートを生成</button>
+    <div class="loading" id="loading-${school.id}">Claude が分析中...</div>
+    <div class="error-msg" id="error-${school.id}"></div>
+  </div>`;
+}
+
+function switchTab(id) {
+  document.querySelectorAll(".school-tab").forEach(t=>t.classList.remove("active"));
+  document.querySelectorAll(".report-section").forEach(s=>s.classList.remove("active"));
+  document.querySelector(`.school-tab[data-school-id="${id}"]`).classList.add("active");
+  document.querySelector(`.report-section[data-school-id="${id}"]`).classList.add("active");
+}
+
+async function generate(schoolId) {
+  if (!apiKey) { alert("Claude API キーが必要です。「子どもの特徴」ページで入力してください。"); return; }
+  const school = SCHOOLS.find(s=>s.id===schoolId);
+  document.getElementById(`loading-${schoolId}`).classList.add("active");
+  try {
+    const html = await generatePersonalizedReport(apiKey, school, inference.primary_archetype, inference.big_five || {}, FITS, EMINENTS);
+    cachedReports[schoolId] = html;
+    localStorage.setItem("sms_personalized_reports", JSON.stringify(cachedReports));
+    renderTabs();
+    switchTab(schoolId);
+  } catch (e) {
+    document.getElementById(`error-${schoolId}`).textContent = "エラー: " + e.message;
+    document.getElementById(`error-${schoolId}`).classList.add("active");
+  } finally {
+    if (document.getElementById(`loading-${schoolId}`))
+      document.getElementById(`loading-${schoolId}`).classList.remove("active");
+  }
+}
+
+function regenerate(schoolId) {
+  delete cachedReports[schoolId];
+  localStorage.setItem("sms_personalized_reports", JSON.stringify(cachedReports));
+  generate(schoolId);
+}
+
+function renderAddSection() {
+  // 候補校 - 既にレポート生成済みの校を除いた学校選択
+  const existingIds = new Set(firstChoices);
+  const available = candidates.filter(id => !existingIds.has(id));
+  if (available.length === 0) return;
+  const target = document.getElementById("content");
+  target.insertAdjacentHTML("beforeend", `
+    <div class="add-school-section">
+      <h3>追加で1校レポートを生成</h3>
+      <p style="font-family: var(--font); font-size: 0.78rem; color: var(--text-secondary);">候補校から1校選んで追加レポートを生成できます</p>
+      <div class="controls">
+        <select id="add-school-select">
+          <option value="">追加する学校を選択</option>
+          ${available.map(id => {
+            const s = SCHOOLS.find(x=>x.id===id);
+            return s ? `<option value="${id}">${s.school_name} (${s.prefecture||""})</option>` : "";
+          }).join("")}
+        </select>
+        <button class="btn primary" onclick="addAndGenerate()">追加生成</button>
+      </div>
+    </div>
+    <div class="bottom-actions">
+      <a href="reports.html" class="btn">5校レポートに戻る</a>
+      <a href="select.html" class="btn">候補校を再編集</a>
+    </div>`);
+}
+
+async function addAndGenerate() {
+  const select = document.getElementById("add-school-select");
+  const id = parseInt(select.value);
+  if (!id) { alert("学校を選択してください"); return; }
+  if (!firstChoices.includes(id)) {
+    firstChoices.push(id);
+    sel.firstChoices = firstChoices;
+    localStorage.setItem("sms_selection", JSON.stringify(sel));
+  }
+  renderTabs();
+  renderAddSection();
+  switchTab(id);
+  generate(id);
+}
+</script>
+</body>
+</html>

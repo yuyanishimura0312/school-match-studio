@@ -1,0 +1,4802 @@
+[
+  {
+    "school_id": 1,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 1,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 2,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.4,
+    "fit_type": "poor_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "文化的ギャップあり。個性の抑圧または環境への不適応の可能性が高い。スクール文化への事前理解と個別支援体制の強化が不可欠。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 3,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 4,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 5,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.4,
+    "fit_type": "poor_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "文化的ギャップあり。個性の抑圧または環境への不適応の可能性が高い。スクール文化への事前理解と個別支援体制の強化が不可欠。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 6,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 7,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 8,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 9,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 10,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 11,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 12,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 13,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 14,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 15,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 16,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 17,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 18,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 19,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 20,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 21,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 22,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.4,
+    "fit_type": "poor_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "文化的ギャップあり。個性の抑圧または環境への不適応の可能性が高い。スクール文化への事前理解と個別支援体制の強化が不可欠。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 23,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 24,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.4,
+    "fit_type": "poor_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "文化的ギャップあり。個性の抑圧または環境への不適応の可能性が高い。スクール文化への事前理解と個別支援体制の強化が不可欠。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 25,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 26,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 27,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 28,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 29,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 30,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 31,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 32,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 33,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 34,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 35,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 36,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 37,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 38,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 39,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 40,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 41,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 42,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 43,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 44,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 45,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 46,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 47,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 48,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 49,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 50,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 51,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 52,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.85,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 53,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 54,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 55,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 56,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 57,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.725,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 58,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.575,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 59,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_explorer",
+    "fit_score": 0.8,
+    "fit_type": "direct_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "特段のリスクなし。通常のメンター関係で成長軌道が形成される。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_leader",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_caregiver",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_warrior",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_mediator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_craftsman",
+    "fit_score": 0.65,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_introvert_thinker",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_social_creator",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  },
+  {
+    "school_id": 60,
+    "archetype_id": "arch_steady",
+    "fit_score": 0.5,
+    "fit_type": "stretch_fit",
+    "rationale": "適合度を評価しました。",
+    "risks": "適度なストレッチ。発達課題のスケーリングにはメンター支援が必須。1-2年の学習期を要する可能性。"
+  }
+]

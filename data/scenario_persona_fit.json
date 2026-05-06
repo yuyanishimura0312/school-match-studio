@@ -1,0 +1,842 @@
+[
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.85,
+    "rationale": "arch_explorer において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.88,
+    "rationale": "arch_explorer において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.82,
+    "rationale": "arch_explorer において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.9,
+    "rationale": "arch_explorer において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.82,
+    "rationale": "arch_explorer において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.9,
+    "rationale": "arch_explorer において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.75,
+    "rationale": "arch_explorer において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.92,
+    "rationale": "arch_explorer において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.8,
+    "rationale": "arch_explorer において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.92,
+    "rationale": "arch_explorer において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.7,
+    "rationale": "arch_explorer において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.95,
+    "rationale": "arch_explorer において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.78,
+    "rationale": "arch_creator において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.85,
+    "rationale": "arch_creator において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.7,
+    "rationale": "arch_creator において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.88,
+    "rationale": "arch_creator において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.75,
+    "rationale": "arch_creator において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.88,
+    "rationale": "arch_creator において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.65,
+    "rationale": "arch_creator において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.9,
+    "rationale": "arch_creator において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.72,
+    "rationale": "arch_creator において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.9,
+    "rationale": "arch_creator において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_creator において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.92,
+    "rationale": "arch_creator において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_leader において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_leader において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.4,
+    "rationale": "arch_leader において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.8,
+    "rationale": "arch_leader において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.72,
+    "rationale": "arch_leader において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.85,
+    "rationale": "arch_leader において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.5,
+    "rationale": "arch_leader において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.75,
+    "rationale": "arch_leader において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.68,
+    "rationale": "arch_leader において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.82,
+    "rationale": "arch_leader において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.55,
+    "rationale": "arch_leader において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.7,
+    "rationale": "arch_leader において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.4,
+    "rationale": "arch_caregiver において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.45,
+    "rationale": "arch_caregiver において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.35,
+    "rationale": "arch_caregiver において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.5,
+    "rationale": "arch_caregiver において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.85,
+    "rationale": "arch_caregiver において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.88,
+    "rationale": "arch_caregiver において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.8,
+    "rationale": "arch_caregiver において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.7,
+    "rationale": "arch_caregiver において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.85,
+    "rationale": "arch_caregiver において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.9,
+    "rationale": "arch_caregiver において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.75,
+    "rationale": "arch_caregiver において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.65,
+    "rationale": "arch_caregiver において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.65,
+    "rationale": "arch_warrior において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.6,
+    "rationale": "arch_warrior において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.85,
+    "rationale": "arch_warrior において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.55,
+    "rationale": "arch_warrior において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.6,
+    "rationale": "arch_warrior において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.55,
+    "rationale": "arch_warrior において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.8,
+    "rationale": "arch_warrior において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.5,
+    "rationale": "arch_warrior において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.55,
+    "rationale": "arch_warrior において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.5,
+    "rationale": "arch_warrior において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.75,
+    "rationale": "arch_warrior において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.45,
+    "rationale": "arch_warrior において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.72,
+    "rationale": "arch_mediator において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.8,
+    "rationale": "arch_mediator において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.55,
+    "rationale": "arch_mediator において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.7,
+    "rationale": "arch_mediator において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.78,
+    "rationale": "arch_mediator において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.85,
+    "rationale": "arch_mediator において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.65,
+    "rationale": "arch_mediator において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.75,
+    "rationale": "arch_mediator において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.8,
+    "rationale": "arch_mediator において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.88,
+    "rationale": "arch_mediator において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.68,
+    "rationale": "arch_mediator において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.78,
+    "rationale": "arch_mediator において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.65,
+    "rationale": "arch_craftsman において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.7,
+    "rationale": "arch_craftsman において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_craftsman において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.68,
+    "rationale": "arch_craftsman において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_craftsman において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_craftsman において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_craftsman において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_craftsman において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_craftsman において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_craftsman において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_craftsman において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_craftsman において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.65,
+    "rationale": "arch_introvert_thinker において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.7,
+    "rationale": "arch_introvert_thinker において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_introvert_thinker において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.68,
+    "rationale": "arch_introvert_thinker において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_introvert_thinker において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_introvert_thinker において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_introvert_thinker において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_introvert_thinker において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_introvert_thinker において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_introvert_thinker において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_introvert_thinker において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_introvert_thinker において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.65,
+    "rationale": "arch_social_creator において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.7,
+    "rationale": "arch_social_creator において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_social_creator において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.68,
+    "rationale": "arch_social_creator において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_social_creator において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_social_creator において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_social_creator において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_social_creator において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_social_creator において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_social_creator において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_social_creator において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_social_creator において agi シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2030",
+    "scenario": "baseline",
+    "fit_score": 0.65,
+    "rationale": "arch_steady において baseline シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2030",
+    "scenario": "ssp1",
+    "fit_score": 0.7,
+    "rationale": "arch_steady において ssp1 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2030",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_steady において ssp3 シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2030",
+    "scenario": "agi",
+    "fit_score": 0.68,
+    "rationale": "arch_steady において agi シナリオにおける future_2030 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2050",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_steady において baseline シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2050",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_steady において ssp1 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2050",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_steady において ssp3 シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2050",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_steady において agi シナリオにおける future_2050 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2100",
+    "scenario": "baseline",
+    "fit_score": 0.7,
+    "rationale": "arch_steady において baseline シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2100",
+    "scenario": "ssp1",
+    "fit_score": 0.75,
+    "rationale": "arch_steady において ssp1 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2100",
+    "scenario": "ssp3",
+    "fit_score": 0.6,
+    "rationale": "arch_steady において ssp3 シナリオにおける future_2100 への適応度。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "future_era_id": "future_2100",
+    "scenario": "agi",
+    "fit_score": 0.72,
+    "rationale": "arch_steady において agi シナリオにおける future_2100 への適応度。"
+  }
+]

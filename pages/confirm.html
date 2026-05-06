@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI推論の確認 | School Match Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/textbook.css">
+<style>
+.app-layout { max-width: 880px; margin: 0 auto; padding: 32px 24px 100px; }
+.step-indicator { display: flex; gap: 4px; margin-bottom: 24px; }
+.step { flex: 1; padding: 8px 12px; font-family: var(--font); font-size: 0.7rem; text-align: center; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface); }
+.step.active { background: var(--accent-warm); color: white; border-color: var(--accent-warm); }
+.step.done { color: var(--accent-warm); border-color: var(--accent-warm); }
+
+.summary-question { padding: 20px 24px; background: var(--accent-muted); border-left: 3px solid var(--accent-warm); margin: 16px 0; font-family: var(--font-serif); font-size: 1rem; line-height: 1.85; }
+
+.bigfive-grid { display: grid; grid-template-columns: 100px 1fr 60px 80px; gap: 8px 14px; align-items: center; margin: 12px 0; padding: 14px; background: var(--card); border: 1px solid var(--border); }
+.bigfive-grid .label { font-family: var(--font); font-size: 0.85rem; font-weight: 700; }
+.bigfive-grid .desc { font-family: var(--font); font-size: 0.72rem; color: var(--text-muted); }
+.bigfive-grid input[type=range] { width: 100%; }
+.bigfive-grid .value { font-family: monospace; text-align: center; font-size: 0.85rem; }
+.bigfive-grid .conf { font-family: var(--font); font-size: 0.7rem; color: var(--text-muted); text-align: center; }
+
+.archetype-card-display { padding: 18px 22px; background: var(--card); border: 2px solid var(--accent-warm); margin: 12px 0; }
+.archetype-card-display h3 { font-family: var(--font-serif); font-size: 1.1rem; color: var(--accent-warm); }
+.archetype-card-display .conf-bar { height: 6px; background: var(--border-light); margin: 8px 0; border-radius: 3px; }
+.archetype-card-display .conf-fill { height: 100%; background: var(--accent-warm); }
+.archetype-card-display select { padding: 6px 10px; font-family: var(--font); font-size: 0.85rem; border: 1px solid var(--border); background: var(--bg); color: var(--text); width: 100%; margin-top: 8px; }
+
+.alt-block { padding: 12px 16px; background: var(--surface); border-left: 2px solid var(--accent-warm); margin: 8px 0; font-family: var(--font); font-size: 0.82rem; line-height: 1.7; }
+
+.modify-section { margin: 24px 0; padding: 16px 20px; background: var(--surface); border: 1px solid var(--border); }
+.modify-section textarea { width: 100%; min-height: 100px; padding: 12px; font-family: var(--font-serif); font-size: 0.92rem; line-height: 1.8; border: 1px solid var(--border); background: var(--bg); color: var(--text); resize: vertical; margin-top: 8px; }
+
+.btn { padding: 12px 24px; font-family: var(--font); font-weight: 600; font-size: 0.85rem; cursor: pointer; border: 1px solid var(--accent-warm); background: var(--bg); color: var(--accent-warm); }
+.btn.primary { background: var(--accent-warm); color: white; }
+.btn:hover:not(:disabled) { opacity: 0.85; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.bottom-actions { display: flex; gap: 12px; margin-top: 32px; padding: 20px 0; border-top: 1px solid var(--border); }
+
+.loading { display: none; padding: 16px; text-align: center; color: var(--text-muted); font-family: var(--font); font-size: 0.85rem; }
+.loading.active { display: block; }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readingProgress"></div>
+<header class="top-bar">
+  <div class="top-bar-brand"><a href="../index.html" style="color: inherit; text-decoration: none;"><span>School Match Studio</span></a></div>
+  <div class="top-bar-actions">
+    <a href="personality.html" class="back-link">&#8592; 入力に戻る</a>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">DARK</button>
+  </div>
+</header>
+
+<div class="app-layout">
+
+<div class="step-indicator">
+  <div class="step done">1. 候補校</div>
+  <div class="step done">2. 第一志望5校</div>
+  <div class="step done">3. レポート閲覧</div>
+  <div class="step done">4. 子どもの特徴</div>
+  <div class="step active">5. 人格適合</div>
+</div>
+
+<h1 class="book-title" style="margin-bottom: 8px;">AI推論の確認</h1>
+<p style="font-family: var(--font); font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px; line-height: 1.7;">AIが推論した人格プロファイルです。「つまりこういう傾向ですか？」という問いに対し、Big Five値・主要アーキタイプを直接修正できます。修正後、人格適合レポートが生成されます。</p>
+
+<div id="content"></div>
+
+</div>
+
+<script src="../css/textbook-init.js"></script>
+<script src="../js/personality-ai.js"></script>
+<script>
+const inference = JSON.parse(localStorage.getItem("sms_personality_inference") || "{}");
+const ARCHETYPE_NAMES = {
+  arch_explorer: "探究者", arch_creator: "創造者", arch_leader: "リーダー型",
+  arch_caregiver: "養育者", arch_warrior: "挑戦者", arch_mediator: "調停者",
+  arch_craftsman: "職人型", arch_introvert_thinker: "内省思索者",
+  arch_social_creator: "社交創造者", arch_steady: "堅実型"
+};
+
+if (!inference.summary_question) {
+  document.getElementById("content").innerHTML = `<p>推論データがありません。<a href="personality.html">入力に戻る</a></p>`;
+} else {
+  render();
+}
+
+function render() {
+  const bf = inference.big_five || {O:50, C:50, E:50, A:50, N:50};
+  const conf = inference.big_five_confidence || {};
+  const dimensions = [
+    {k:"O", label:"開放性", desc:"好奇心・想像力"},
+    {k:"C", label:"誠実性", desc:"計画性・責任感"},
+    {k:"E", label:"外向性", desc:"社交性・活発さ"},
+    {k:"A", label:"協調性", desc:"思いやり・協力"},
+    {k:"N", label:"神経症傾向", desc:"不安・情緒不安定"}
+  ];
+
+  let html = `
+    <h3 class="section-heading">AIの問いかけ</h3>
+    <div class="summary-question">${escapeHtml(inference.summary_question || "")}</div>
+
+    <h3 class="section-heading">Big Five 推論値（修正できます）</h3>
+    <div class="bigfive-grid">
+      ${dimensions.map(d => `
+        <div class="label">${d.label}</div>
+        <input type="range" min="0" max="100" value="${bf[d.k]||50}" id="bf-${d.k}" oninput="updateBF('${d.k}', this.value)">
+        <div class="value" id="bf-val-${d.k}">${bf[d.k]||50}</div>
+        <div class="conf">確信度: ${conf[d.k] || "medium"}</div>
+        <div class="desc" style="grid-column: 1 / -1; padding-bottom: 6px;">${d.desc}</div>
+      `).join("")}
+    </div>
+
+    <h3 class="section-heading">主要アーキタイプ</h3>
+    <div class="archetype-card-display">
+      <h3 id="primary-name">${ARCHETYPE_NAMES[inference.primary_archetype] || inference.primary_archetype}</h3>
+      <div style="font-family: var(--font); font-size: 0.78rem; color: var(--text-muted);">確信度: ${(inference.primary_confidence*100).toFixed(0)}%</div>
+      <div class="conf-bar"><div class="conf-fill" style="width: ${(inference.primary_confidence*100).toFixed(0)}%"></div></div>
+      <div style="font-family: var(--font-serif); font-size: 0.92rem; line-height: 1.8; margin-top: 10px;">${escapeHtml(inference.rationale || "")}</div>
+      <label style="font-family: var(--font); font-size: 0.78rem; color: var(--text-muted); margin-top: 12px; display: block;">必要なら修正：</label>
+      <select id="primary-select" onchange="updatePrimary(this.value)">
+        ${Object.entries(ARCHETYPE_NAMES).map(([k,v])=>`<option value="${k}" ${k===inference.primary_archetype?'selected':''}>${v}</option>`).join("")}
+      </select>
+    </div>
+
+    ${inference.alternative_interpretations && inference.alternative_interpretations.length > 0 ? `
+    <h3 class="section-heading">代替的な解釈</h3>
+    ${inference.alternative_interpretations.map(alt=>`<div class="alt-block">${escapeHtml(alt)}</div>`).join("")}
+    ` : ""}
+
+    ${inference.uncertainty_note ? `
+    <h3 class="section-heading">推論の不確実性</h3>
+    <div class="alt-block">${escapeHtml(inference.uncertainty_note)}</div>
+    ` : ""}
+
+    <div class="modify-section">
+      <h4 style="font-family: var(--font); font-size: 0.85rem; margin-bottom: 6px;">追加の修正指示</h4>
+      <p style="font-family: var(--font); font-size: 0.78rem; color: var(--text-muted);">「もっと内向的だと思う」「リーダーシップは控えめ」など、AI推論への修正コメントを書けます（オプション）</p>
+      <textarea id="modify-text" placeholder="修正指示を入力..."></textarea>
+      <button class="btn" onclick="reanalyze()" style="margin-top: 10px;">修正コメントで再推論</button>
+    </div>
+
+    <div class="loading" id="loading">処理中...</div>
+
+    <div class="bottom-actions">
+      <a href="personality.html" class="btn">入力に戻る</a>
+      <button class="btn primary" onclick="proceed()">この内容で人格適合レポートを生成 →</button>
+    </div>`;
+
+  document.getElementById("content").innerHTML = html;
+}
+
+function updateBF(k, v) {
+  inference.big_five = inference.big_five || {};
+  inference.big_five[k] = parseInt(v);
+  document.getElementById(`bf-val-${k}`).textContent = v;
+  saveInference();
+}
+
+function updatePrimary(v) {
+  inference.primary_archetype = v;
+  document.getElementById("primary-name").textContent = ARCHETYPE_NAMES[v] || v;
+  saveInference();
+}
+
+function saveInference() {
+  localStorage.setItem("sms_personality_inference", JSON.stringify(inference));
+}
+
+async function reanalyze() {
+  const apiKey = localStorage.getItem("sms_api_key");
+  const baseText = localStorage.getItem("sms_personality_text") || "";
+  const modifyText = document.getElementById("modify-text").value.trim();
+  if (!modifyText) { alert("修正コメントを入力してください"); return; }
+
+  document.getElementById("loading").classList.add("active");
+  try {
+    const combined = `${baseText}\n\n【保護者からの修正コメント】\n${modifyText}\n\n上記のコメントを反映して、人格プロファイルを再推論してください。`;
+    const result = await analyzePersonality(apiKey, combined);
+    localStorage.setItem("sms_personality_inference", JSON.stringify(result));
+    Object.assign(inference, result);
+    render();
+  } catch (e) {
+    alert("再推論エラー: " + e.message);
+  } finally {
+    document.getElementById("loading").classList.remove("active");
+  }
+}
+
+function proceed() {
+  saveInference();
+  window.location.href = "personalized.html";
+}
+
+function escapeHtml(s) {
+  return (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+</script>
+</body>
+</html>

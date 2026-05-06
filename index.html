@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Match Studio | 進学先候補レポート Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/textbook.css">
+<style>
+.hero { text-align: center; padding: 60px 0 40px; }
+.hero h1 { font-size: 2.4rem; margin-bottom: 16px; line-height: 1.4; }
+.hero .lead { font-family: var(--font); font-size: 1rem; color: var(--text-secondary); max-width: 640px; margin: 0 auto 32px; line-height: 1.8; }
+.cta-button { display: inline-block; background: var(--accent-warm); color: white; padding: 14px 32px; font-family: var(--font); font-weight: 700; font-size: 0.95rem; border: none; cursor: pointer; transition: opacity 0.15s; text-decoration: none; }
+.cta-button:hover { opacity: 0.85; text-decoration: none; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 48px 0; }
+.feature-card { background: var(--card); border: 1px solid var(--border); padding: 24px; }
+.feature-card h3 { font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 10px; color: var(--accent-warm); }
+.feature-card p { font-family: var(--font); font-size: 0.85rem; line-height: 1.7; color: var(--text-secondary); }
+.flow-step { display: flex; align-items: flex-start; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--border-light); }
+.flow-step:last-child { border-bottom: none; }
+.flow-num { font-family: "SF Mono", monospace; font-size: 1.2rem; font-weight: 700; color: var(--accent-warm); width: 32px; flex-shrink: 0; }
+.flow-content h4 { font-family: var(--font-serif); font-size: 1rem; margin-bottom: 6px; }
+.flow-content p { font-family: var(--font); font-size: 0.82rem; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readingProgress"></div>
+<header class="top-bar">
+  <div class="top-bar-brand"><span>School Match Studio</span> — 進学先候補レポート Builder</div>
+  <div class="top-bar-actions">
+    <a href="pages/select.html" class="back-link">候補校を選ぶ</a>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">DARK</button>
+  </div>
+</header>
+
+<div class="book-layout" style="grid-template-columns: 1fr;">
+<main class="book-main" style="max-width: 880px; margin: 0 auto;">
+
+<section class="hero">
+<h1>子どもの進学先選びを<br>レポートで考える</h1>
+<p class="lead">私立中学60校から候補を絞り込み、各校の文化・教育方針・時代適合性・想定される活躍経路を一冊のレポートとして読み比べます。さらに子どもの特徴を入力すれば、人格適合性に基づく追加レポートも生成されます。</p>
+<a href="pages/select.html" class="cta-button">はじめる →</a>
+</section>
+
+<section class="chapter-section">
+<h2 class="chapter-title">3つの機能</h2>
+
+<div class="feature-grid">
+<div class="feature-card">
+<h3>① 候補校レポート</h3>
+<p>最大20校の候補から第一志望群5校を選び、それぞれについて学校文化・教育方針・時代適合・想定卒業生像を含む詳細レポートを生成。</p>
+</div>
+<div class="feature-card">
+<h3>② 人格適合の追加レポート</h3>
+<p>子どもの特徴をテキストで入力すると、AIがBig Five+10アーキタイプで推論。「つまりこういう傾向ですか？」と問い返し、修正できます。確定後、各校との人格適合レポートを追加生成。</p>
+</div>
+<div class="feature-card">
+<h3>③ 追加校レポート</h3>
+<p>レポート閲覧後に追加校を1校ずつ選択し、追加レポートを生成。気になる学校を後から比較できます。</p>
+</div>
+</div>
+</section>
+
+<section class="chapter-section">
+<h2 class="chapter-title">使い方の流れ</h2>
+
+<div class="flow-step">
+<div class="flow-num">01</div>
+<div class="flow-content">
+<h4>候補校を最大20校選択</h4>
+<p>都道府県・学校文化・特徴で絞り込み、気になる学校を候補リストに追加します。</p>
+</div>
+</div>
+<div class="flow-step">
+<div class="flow-num">02</div>
+<div class="flow-content">
+<h4>第一志望群5校を絞り込み</h4>
+<p>候補から特に重要な5校を選びます。</p>
+</div>
+</div>
+<div class="flow-step">
+<div class="flow-num">03</div>
+<div class="flow-content">
+<h4>5校レポート閲覧</h4>
+<p>各校について jpms-db のサンプルレポートと同等の詳細レポートが生成されます。</p>
+</div>
+</div>
+<div class="flow-step">
+<div class="flow-num">04</div>
+<div class="flow-content">
+<h4>子どもの特徴を入力</h4>
+<p>自由テキストで子どもの様子を書きます。AIが Big Five と10アーキタイプで推論し、確認を求めます。</p>
+</div>
+</div>
+<div class="flow-step">
+<div class="flow-num">05</div>
+<div class="flow-content">
+<h4>人格適合の追加レポート</h4>
+<p>確定した人格プロファイル × 5校の人格適合レポートが追加生成されます。</p>
+</div>
+</div>
+<div class="flow-step">
+<div class="flow-num">06</div>
+<div class="flow-content">
+<h4>追加校レポートの生成</h4>
+<p>気になる学校を1校ずつ追加し、追加レポートを生成できます。</p>
+</div>
+</div>
+</section>
+
+<section class="chapter-section">
+<h2 class="chapter-title">本ツールの設計原則</h2>
+
+<div class="callout">
+<div class="callout-label">序列付け禁止・相性フレーム・確率的予測</div>
+<p>本ツールは学校の「序列付け」を絶対に行いません。すべて「相性・適合」のフレームで構築されています。「この子はこの学校に行くべき」ではなく、「この子の傾向に合う環境はこういう特徴です」という形で情報を提供します。最終的な選択は子ども・保護者・教育者の対話で決めるためのリソースとして使ってください。</p>
+</div>
+
+<p style="margin-top: 20px; font-family: var(--font); font-size: 0.85rem; color: var(--text-secondary);">背景データベース：JPMS-DB（私立学校DB551校）／ era-talents-db（活躍人材12,958人）／ PST-DB（人格-学校-活躍経路 統合予測DB）／ jpms LCA k=8 学校類型</p>
+</section>
+
+<section class="chapter-section" style="text-align: center;">
+<a href="pages/select.html" class="cta-button">候補校を選ぶ →</a>
+</section>
+
+<div class="book-footer">
+School Match Studio v1.0 ・ 2026-05-06<br>
+データソース：<a href="https://yuyanishimura0312.github.io/jpms-db/v2/" target="_blank">JPMS-DB</a> ・
+<a href="https://yuyanishimura0312.github.io/era-talents-db/" target="_blank">era-talents-db</a> ・
+<a href="https://yuyanishimura0312.github.io/persona-school-trajectory-db/" target="_blank">PST-DB</a><br>
+Copyright © Yuya Nishimura / NPO法人ミラツク
+</div>
+
+</main>
+</div>
+
+<script src="css/textbook-init.js"></script>
+</body>
+</html>

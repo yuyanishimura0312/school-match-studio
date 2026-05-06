@@ -1,0 +1,335 @@
+[
+  {
+    "archetype_id": "arch_caregiver",
+    "school_id": 40,
+    "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.81, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.68, \"market\": 0.63}",
+    "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
+    "scenario_breakdown": "{\"baseline\": 0.27, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "養育者型の人格特性と青山学院中等部の教育環境との中程度の適合度（スコア 0.72）に基づく予測です。青山学院中等部の教育方針は、養育者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "school_id": 49,
+    "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.81, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.68, \"market\": 0.63}",
+    "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
+    "scenario_breakdown": "{\"baseline\": 0.27, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "養育者型の人格特性と小石川淑徳学園中学校の教育環境との中程度の適合度（スコア 0.72）に基づく予測です。小石川淑徳学園中学校の教育方針は、養育者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "school_id": 22,
+    "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.68, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.81, \"market\": 0.63}",
+    "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.295, \"SSP3\": 0.222, \"AGI\": 0.228}",
+    "rationale": "創造者型の人格特性と開智日本橋学園中学校の教育環境との中程度の適合度（スコア 0.72）に基づく予測です。開智日本橋学園中学校の教育方針は、創造者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "school_id": 24,
+    "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.68, \"social_emotional\": 0.68, \"values\": 0.63, \"agency\": 0.63, \"wellbeing\": 0.63, \"creativity\": 0.81, \"market\": 0.63}",
+    "confidence_interval": "{\"lower\": 0.60375, \"upper\": 0.84625}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.295, \"SSP3\": 0.222, \"AGI\": 0.228}",
+    "rationale": "創造者型の人格特性と芝国際中学校の教育環境との中程度の適合度（スコア 0.72）に基づく予測です。芝国際中学校の教育方針は、創造者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 53,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.91, \"social_emotional\": 0.78, \"values\": 0.73, \"agency\": 0.73, \"wellbeing\": 0.73, \"creativity\": 0.78, \"market\": 0.73}",
+    "confidence_interval": "{\"lower\": 0.7474999999999999, \"upper\": 0.9525}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.293, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と成城学園中学校の教育環境との高い適合度（スコア 0.85）に基づく予測です。成城学園中学校の教育方針は、探究者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 1,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
+    "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.294, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と開成中学校の教育環境との高い適合度（スコア 0.80）に基づく予測です。開成中学校の教育方針は、探究者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 2,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
+    "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.294, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と麻布中学校の教育環境との高い適合度（スコア 0.80）に基づく予測です。麻布中学校の教育方針は、探究者の内発的動機づけを引き出しやすい環境として評価されています。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "school_id": 4,
+    "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "養育者型の人格特性と雙葉中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "school_id": 7,
+    "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "養育者型の人格特性と洛南高等学校附属中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_caregiver",
+    "school_id": 9,
+    "likely_career_domains": "[\"education\", \"medical\", \"social_movement\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.75, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "養育者型の人格特性と神戸女学院中学部の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "school_id": 1,
+    "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "職人型型の人格特性と開成中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "school_id": 2,
+    "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "職人型型の人格特性と麻布中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_craftsman",
+    "school_id": 3,
+    "likely_career_domains": "[\"craft\", \"science_tech_specialist\", \"traditional_arts\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.271, \"SSP1\": 0.253, \"SSP3\": 0.235, \"AGI\": 0.242}",
+    "rationale": "職人型型の人格特性と桜蔭中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "school_id": 2,
+    "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.75, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.296, \"SSP3\": 0.221, \"AGI\": 0.228}",
+    "rationale": "創造者型の人格特性と麻布中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "school_id": 4,
+    "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.56, \"social_emotional\": 0.56, \"values\": 0.51, \"agency\": 0.51, \"wellbeing\": 0.51, \"creativity\": 0.69, \"market\": 0.51}",
+    "confidence_interval": "{\"lower\": 0.43124999999999997, \"upper\": 0.71875}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.298, \"SSP3\": 0.22, \"AGI\": 0.227}",
+    "rationale": "創造者型の人格特性と雙葉中学校の教育環境との初期的な適合度（スコア 0.57）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_creator",
+    "school_id": 5,
+    "likely_career_domains": "[\"culture_arts\", \"media\", \"design\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.56, \"social_emotional\": 0.56, \"values\": 0.51, \"agency\": 0.51, \"wellbeing\": 0.51, \"creativity\": 0.69, \"market\": 0.51}",
+    "confidence_interval": "{\"lower\": 0.43124999999999997, \"upper\": 0.71875}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.298, \"SSP3\": 0.22, \"AGI\": 0.227}",
+    "rationale": "創造者型の人格特性と渋谷教育学園幕張中学校の教育環境との初期的な適合度（スコア 0.57）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 53,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.91, \"social_emotional\": 0.78, \"values\": 0.73, \"agency\": 0.73, \"wellbeing\": 0.73, \"creativity\": 0.78, \"market\": 0.73}",
+    "confidence_interval": "{\"lower\": 0.7474999999999999, \"upper\": 0.9525}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.293, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と成城学園中学校の教育環境との高い適合度（スコア 0.85）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 1,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
+    "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.294, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と開成中学校の教育環境との高い適合度（スコア 0.80）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_explorer",
+    "school_id": 2,
+    "likely_career_domains": "[\"science_tech\", \"education\", \"culture_arts_research\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.87, \"social_emotional\": 0.74, \"values\": 0.69, \"agency\": 0.69, \"wellbeing\": 0.69, \"creativity\": 0.74, \"market\": 0.69}",
+    "confidence_interval": "{\"lower\": 0.6900000000000001, \"upper\": 0.91}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.294, \"SSP3\": 0.223, \"AGI\": 0.229}",
+    "rationale": "探究者型の人格特性と麻布中学校の教育環境との高い適合度（スコア 0.80）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "school_id": 2,
+    "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.296, \"SSP3\": 0.221, \"AGI\": 0.228}",
+    "rationale": "内省思索者型の人格特性と麻布中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "school_id": 22,
+    "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.296, \"SSP3\": 0.221, \"AGI\": 0.228}",
+    "rationale": "内省思索者型の人格特性と開智日本橋学園中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_introvert_thinker",
+    "school_id": 24,
+    "likely_career_domains": "[\"science_tech_theoretical\", \"philosophy\", \"writing\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.75, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.57, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.255, \"SSP1\": 0.296, \"SSP3\": 0.221, \"AGI\": 0.228}",
+    "rationale": "内省思索者型の人格特性と芝国際中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "school_id": 4,
+    "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "リーダー型型の人格特性と雙葉中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "school_id": 7,
+    "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "リーダー型型の人格特性と洛南高等学校附属中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_leader",
+    "school_id": 9,
+    "likely_career_domains": "[\"business\", \"politics\", \"organizational_management\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "リーダー型型の人格特性と神戸女学院中学部の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "school_id": 1,
+    "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "調停者型の人格特性と開成中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "school_id": 2,
+    "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "調停者型の人格特性と麻布中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_mediator",
+    "school_id": 3,
+    "likely_career_domains": "[\"social_movement\", \"politics_diplomacy\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.63, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "調停者型の人格特性と桜蔭中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "school_id": 1,
+    "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "社交創造者型の人格特性と開成中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "school_id": 2,
+    "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "社交創造者型の人格特性と麻布中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_social_creator",
+    "school_id": 3,
+    "likely_career_domains": "[\"media\", \"culture_arts\", \"business_creative\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.45, \"creativity\": 0.63, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.25, \"SSP1\": 0.232, \"SSP3\": 0.214, \"AGI\": 0.304}",
+    "rationale": "社交創造者型の人格特性と桜蔭中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "school_id": 1,
+    "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.272, \"SSP1\": 0.253, \"SSP3\": 0.233, \"AGI\": 0.241}",
+    "rationale": "堅実型型の人格特性と開成中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "school_id": 3,
+    "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.272, \"SSP1\": 0.253, \"SSP3\": 0.233, \"AGI\": 0.241}",
+    "rationale": "堅実型型の人格特性と桜蔭中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_steady",
+    "school_id": 4,
+    "likely_career_domains": "[\"business_admin\", \"public_service\", \"education\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.5, \"social_emotional\": 0.5, \"values\": 0.45, \"agency\": 0.45, \"wellbeing\": 0.63, \"creativity\": 0.5, \"market\": 0.45}",
+    "confidence_interval": "{\"lower\": 0.345, \"upper\": 0.655}",
+    "scenario_breakdown": "{\"baseline\": 0.272, \"SSP1\": 0.253, \"SSP3\": 0.233, \"AGI\": 0.241}",
+    "rationale": "堅実型型の人格特性と雙葉中学校の教育環境との初期的な適合度（スコア 0.50）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "school_id": 4,
+    "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "挑戦者型の人格特性と雙葉中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "school_id": 9,
+    "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "挑戦者型の人格特性と神戸女学院中学部の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  },
+  {
+    "archetype_id": "arch_warrior",
+    "school_id": 13,
+    "likely_career_domains": "[\"business_entrepreneur\", \"sports\", \"craft\"]",
+    "estimated_outcomes": "{\"cognitive\": 0.62, \"social_emotional\": 0.62, \"values\": 0.57, \"agency\": 0.75, \"wellbeing\": 0.57, \"creativity\": 0.62, \"market\": 0.57}",
+    "confidence_interval": "{\"lower\": 0.5175000000000001, \"upper\": 0.7825}",
+    "scenario_breakdown": "{\"baseline\": 0.254, \"SSP1\": 0.237, \"SSP3\": 0.282, \"AGI\": 0.227}",
+    "rationale": "挑戦者型の人格特性と暁星中学校の教育環境との初期的な適合度（スコア 0.65）に基づく予測です。この学校での学習経験を通じて、活躍する確率が相対的に高いと推定されます。ただし本予測は参考情報であり、子どもの選択肢を制限するものではありません。"
+  }
+]

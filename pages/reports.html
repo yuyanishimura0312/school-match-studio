@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5校レポート | School Match Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/textbook.css">
+<style>
+.app-layout { max-width: 1100px; margin: 0 auto; padding: 32px 24px 100px; }
+.step-indicator { display: flex; gap: 4px; margin-bottom: 24px; }
+.step { flex: 1; padding: 8px 12px; font-family: var(--font); font-size: 0.7rem; text-align: center; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface); }
+.step.active { background: var(--accent-warm); color: white; border-color: var(--accent-warm); }
+.step.done { color: var(--accent-warm); border-color: var(--accent-warm); }
+
+.school-tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+.school-tab { padding: 10px 16px; font-family: var(--font); font-size: 0.82rem; cursor: pointer; border: 1px solid var(--border); border-bottom: none; background: var(--surface); color: var(--text-secondary); }
+.school-tab.active { background: var(--bg); color: var(--accent-warm); font-weight: 700; border-bottom: 2px solid var(--accent-warm); margin-bottom: -1px; }
+
+.report-section { display: none; padding: 16px 0; }
+.report-section.active { display: block; }
+
+.report-header { padding: 24px 0; border-bottom: 1px solid var(--border); margin-bottom: 24px; }
+.report-header h1 { font-family: var(--font-serif); font-size: 1.8rem; }
+.report-header .meta { font-family: var(--font); font-size: 0.78rem; color: var(--text-muted); margin-top: 8px; }
+
+.report-block { margin: 32px 0; }
+.report-block h3 { font-family: var(--font-serif); font-size: 1.2rem; padding-bottom: 8px; border-bottom: 2px solid var(--accent-warm); margin-bottom: 14px; }
+.report-block h4 { font-family: var(--font); font-weight: 700; font-size: 0.95rem; margin: 16px 0 10px; color: var(--accent-warm); }
+.report-block p { font-family: var(--font-serif); font-size: 0.92rem; line-height: 1.85; margin-bottom: 1em; text-align: justify; }
+
+.score-bar-row { display: grid; grid-template-columns: 140px 1fr 60px; gap: 10px; align-items: center; padding: 4px 0; font-family: var(--font); font-size: 0.78rem; }
+.score-bar-track { background: var(--border-light); height: 14px; border-radius: 2px; overflow: hidden; }
+.score-bar-fill { height: 100%; background: var(--accent-warm); }
+.score-bar-row .value { text-align: right; color: var(--text-muted); }
+
+.era-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; font-family: var(--font); margin: 12px 0; }
+.era-table th { background: var(--surface); padding: 8px 6px; border: 1px solid var(--border-light); font-weight: 600; }
+.era-table td { padding: 8px 6px; border: 1px solid var(--border-light); text-align: center; }
+.era-cell.high { background: rgba(204,20,0,0.5); color: white; font-weight: 600; }
+.era-cell.mid { background: rgba(204,20,0,0.25); }
+.era-cell.low { background: rgba(204,20,0,0.08); }
+
+.bottom-actions { display: flex; gap: 12px; margin-top: 40px; padding: 20px 0; border-top: 1px solid var(--border); }
+.btn { padding: 12px 20px; font-family: var(--font); font-weight: 600; font-size: 0.85rem; cursor: pointer; border: 1px solid var(--accent-warm); background: var(--bg); color: var(--accent-warm); text-decoration: none; }
+.btn.primary { background: var(--accent-warm); color: white; }
+.btn:hover { opacity: 0.85; }
+
+#empty-state { text-align: center; padding: 80px 0; }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readingProgress"></div>
+<header class="top-bar">
+  <div class="top-bar-brand"><a href="../index.html" style="color: inherit; text-decoration: none;"><span>School Match Studio</span></a></div>
+  <div class="top-bar-actions">
+    <a href="select.html" class="back-link">&#8592; 候補校選択</a>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">DARK</button>
+  </div>
+</header>
+
+<div class="app-layout">
+
+<div class="step-indicator">
+  <div class="step done">1. 候補校</div>
+  <div class="step done">2. 第一志望5校</div>
+  <div class="step active">3. レポート閲覧</div>
+  <div class="step">4. 子どもの特徴</div>
+  <div class="step">5. 人格適合</div>
+</div>
+
+<div id="content"></div>
+
+</div>
+
+<script src="../css/textbook-init.js"></script>
+<script src="../js/report-builder.js"></script>
+<script>
+let SCHOOLS = [], ARCHETYPES = [], FITS = [], ERA_FITS = [], EMINENTS = {}, PATHS = [];
+const sel = JSON.parse(localStorage.getItem("sms_selection") || "{}");
+const candidates = sel.candidates || [];
+const firstChoices = sel.firstChoices || [];
+
+if (firstChoices.length === 0) {
+  document.getElementById("content").innerHTML = `
+    <div id="empty-state">
+      <h1 class="book-title">候補校が選択されていません</h1>
+      <p style="margin: 16px 0;">候補校を選択してください。</p>
+      <a href="select.html" class="btn primary">候補校選択へ</a>
+    </div>`;
+} else {
+  Promise.all([
+    fetch("../data/schools.json").then(r=>r.json()),
+    fetch("../data/archetypes.json").then(r=>r.json()),
+    fetch("../data/school_archetype_fit.json").then(r=>r.json()),
+    fetch("../data/school_era_fit.json").then(r=>r.json()),
+    fetch("../data/eminent_profiles.json").then(r=>r.json()),
+    fetch("../data/prediction_paths.json").then(r=>r.json())
+  ]).then(([s,a,f,ef,em,pp]) => {
+    SCHOOLS = s; ARCHETYPES = a; FITS = f; ERA_FITS = ef; EMINENTS = em; PATHS = pp;
+    renderReports();
+  });
+}
+
+function renderReports() {
+  const fcSchools = firstChoices.map(id => SCHOOLS.find(s => s.id === id)).filter(Boolean);
+
+  let html = `
+    <div class="report-header">
+      <h1>第一志望群 ${fcSchools.length}校 レポート</h1>
+      <div class="meta">候補 ${candidates.length}校 ・ 第一志望 ${fcSchools.length}校 ・ 生成日 ${new Date().toISOString().slice(0,10)}</div>
+    </div>
+    <div class="school-tabs" id="tabs"></div>`;
+
+  fcSchools.forEach((s, idx) => {
+    html += `<div class="report-section ${idx===0?"active":""}" data-school-id="${s.id}">${buildReport(s)}</div>`;
+  });
+
+  html += `
+    <div class="bottom-actions">
+      <a href="select.html" class="btn">候補校選択に戻る</a>
+      <a href="personality.html" class="btn primary">子どもの特徴を入力 →</a>
+    </div>`;
+
+  document.getElementById("content").innerHTML = html;
+  document.getElementById("tabs").innerHTML = fcSchools.map((s,i)=>
+    `<div class="school-tab ${i===0?"active":""}" onclick="switchTab(${s.id})">${s.school_name}</div>`
+  ).join("");
+}
+
+function switchTab(id) {
+  document.querySelectorAll(".school-tab").forEach(t=>t.classList.remove("active"));
+  document.querySelectorAll(".report-section").forEach(s=>s.classList.remove("active"));
+  document.querySelectorAll(".school-tab")[firstChoices.indexOf(id)].classList.add("active");
+  document.querySelector(`.report-section[data-school-id="${id}"]`).classList.add("active");
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+</body>
+</html>

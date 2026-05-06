@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>子どもの特徴を入力 | School Match Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/textbook.css">
+<style>
+.app-layout { max-width: 800px; margin: 0 auto; padding: 32px 24px 100px; }
+.step-indicator { display: flex; gap: 4px; margin-bottom: 24px; }
+.step { flex: 1; padding: 8px 12px; font-family: var(--font); font-size: 0.7rem; text-align: center; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface); }
+.step.active { background: var(--accent-warm); color: white; border-color: var(--accent-warm); }
+.step.done { color: var(--accent-warm); border-color: var(--accent-warm); }
+
+.api-key-section { background: var(--accent-muted); border: 1px solid var(--accent-warm); padding: 16px; margin-bottom: 24px; }
+.api-key-section h4 { font-family: var(--font); font-size: 0.85rem; color: var(--accent-warm); margin-bottom: 8px; }
+.api-key-section p { font-family: var(--font); font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 10px; }
+.api-key-section input { width: 100%; padding: 8px; border: 1px solid var(--border); font-family: monospace; font-size: 0.82rem; background: var(--bg); color: var(--text); }
+.api-key-section .saved { font-size: 0.72rem; color: #2A6F4D; margin-top: 6px; }
+
+textarea.personality-input { width: 100%; min-height: 280px; padding: 16px; font-family: var(--font-serif); font-size: 0.95rem; line-height: 1.85; border: 1px solid var(--border); background: var(--bg); color: var(--text); resize: vertical; }
+
+.examples { background: var(--surface); border: 1px solid var(--border-light); padding: 12px 16px; margin: 12px 0; }
+.examples h5 { font-family: var(--font); font-size: 0.78rem; color: var(--accent-warm); margin-bottom: 8px; }
+.examples ul { font-family: var(--font); font-size: 0.78rem; color: var(--text-secondary); padding-left: 20px; line-height: 1.8; }
+
+.btn { padding: 12px 24px; font-family: var(--font); font-weight: 600; font-size: 0.85rem; cursor: pointer; border: 1px solid var(--accent-warm); background: var(--bg); color: var(--accent-warm); text-decoration: none; }
+.btn.primary { background: var(--accent-warm); color: white; }
+.btn:hover:not(:disabled) { opacity: 0.85; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.bottom-actions { display: flex; gap: 12px; margin-top: 32px; padding: 20px 0; border-top: 1px solid var(--border); }
+
+.loading { display: none; padding: 16px; text-align: center; color: var(--text-muted); font-family: var(--font); font-size: 0.85rem; }
+.loading.active { display: block; }
+
+.error-msg { padding: 12px 16px; background: rgba(204,20,0,0.1); border: 1px solid var(--accent-warm); color: var(--accent-warm); font-family: var(--font); font-size: 0.82rem; margin: 12px 0; display: none; }
+.error-msg.active { display: block; }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readingProgress"></div>
+<header class="top-bar">
+  <div class="top-bar-brand"><a href="../index.html" style="color: inherit; text-decoration: none;"><span>School Match Studio</span></a></div>
+  <div class="top-bar-actions">
+    <a href="reports.html" class="back-link">&#8592; レポートに戻る</a>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">DARK</button>
+  </div>
+</header>
+
+<div class="app-layout">
+
+<div class="step-indicator">
+  <div class="step done">1. 候補校</div>
+  <div class="step done">2. 第一志望5校</div>
+  <div class="step done">3. レポート閲覧</div>
+  <div class="step active">4. 子どもの特徴</div>
+  <div class="step">5. 人格適合</div>
+</div>
+
+<h1 class="book-title" style="margin-bottom: 8px;">子どもの特徴を入力</h1>
+<p style="font-family: var(--font); font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 24px; line-height: 1.7;">子どもの様子・興味・行動傾向を自由に書いてください。AIが「つまりこういう傾向ですか？」と Big Five-J + 10アーキタイプで推論します。次のページで確認・修正できます。</p>
+
+<div class="api-key-section">
+<h4>Claude API キー</h4>
+<p>本ツールは Anthropic Claude API を使って人格推論を行います。API キーをここに入力してください（ブラウザのlocalStorageに保存され、外部送信されません）。<a href="https://console.anthropic.com/settings/keys" target="_blank" style="color: var(--accent-warm);">Claude API キー取得 →</a></p>
+<input type="password" id="api-key-input" placeholder="sk-ant-..." />
+<div class="saved" id="key-saved"></div>
+</div>
+
+<div class="examples">
+<h5>記述例</h5>
+<ul>
+<li>「本が好きで、算数の難問を解くのが楽しいと言う。一方で大勢の中だと疲れる様子。」</li>
+<li>「いつも友達と何かを企画している。リーダーシップはあるが、細かい作業は苦手。」</li>
+<li>「絵を描いたり工作したりが好き。発想は豊かだが、計画通りに進めるのは苦手。」</li>
+</ul>
+</div>
+
+<textarea class="personality-input" id="personality-text" placeholder="子どもの特徴・興味・行動傾向を自由に記述してください..."></textarea>
+
+<div class="loading" id="loading">AIが人格傾向を分析しています...</div>
+<div class="error-msg" id="error-msg"></div>
+
+<div class="bottom-actions">
+  <a href="reports.html" class="btn">レポートに戻る</a>
+  <button class="btn primary" id="analyze-btn" onclick="analyze()">AI分析へ →</button>
+</div>
+
+</div>
+
+<script src="../css/textbook-init.js"></script>
+<script src="../js/personality-ai.js"></script>
+<script>
+const apiKeyInput = document.getElementById("api-key-input");
+const savedKey = localStorage.getItem("sms_api_key") || "";
+if (savedKey) {
+  apiKeyInput.value = savedKey;
+  document.getElementById("key-saved").textContent = "✓ APIキー保存済み";
+}
+apiKeyInput.addEventListener("input", () => {
+  localStorage.setItem("sms_api_key", apiKeyInput.value);
+  document.getElementById("key-saved").textContent = apiKeyInput.value ? "✓ 保存しました" : "";
+});
+
+const textArea = document.getElementById("personality-text");
+const savedText = localStorage.getItem("sms_personality_text") || "";
+textArea.value = savedText;
+textArea.addEventListener("input", () => {
+  localStorage.setItem("sms_personality_text", textArea.value);
+});
+
+async function analyze() {
+  const apiKey = apiKeyInput.value.trim();
+  const text = textArea.value.trim();
+
+  if (!apiKey) { showError("Claude API キーを入力してください"); return; }
+  if (text.length < 30) { showError("子どもの特徴をもう少し詳しく書いてください（30字以上）"); return; }
+
+  document.getElementById("loading").classList.add("active");
+  document.getElementById("error-msg").classList.remove("active");
+  document.getElementById("analyze-btn").disabled = true;
+
+  try {
+    const result = await analyzePersonality(apiKey, text);
+    localStorage.setItem("sms_personality_inference", JSON.stringify(result));
+    window.location.href = "confirm.html";
+  } catch (e) {
+    showError("AI分析エラー: " + e.message);
+  } finally {
+    document.getElementById("loading").classList.remove("active");
+    document.getElementById("analyze-btn").disabled = false;
+  }
+}
+
+function showError(msg) {
+  const el = document.getElementById("error-msg");
+  el.textContent = msg;
+  el.classList.add("active");
+}
+</script>
+</body>
+</html>

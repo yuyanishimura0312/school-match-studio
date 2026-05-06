@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "school_name": "開成中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 69.0, \"cult_structure\": 50.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 2,
+    "school_name": "麻布中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 77.0, \"cult_structure\": 50.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 58.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 3,
+    "school_name": "桜蔭中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 4,
+    "school_name": "雙葉中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 46.0, \"cult_structure\": 65.0, \"cult_diversity\": 48.0, \"cult_intensity\": 58.0, \"cult_mentor\": 64.0, \"cult_creativity\": 54.0, \"cult_competition\": 50.0, \"cult_community\": 65.0, \"cult_internationality\": 58.0, \"cult_spirituality\": 65.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 5,
+    "school_name": "渋谷教育学園幕張中学校",
+    "prefecture": "千葉県",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 69.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 63.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 6,
+    "school_name": "灘中学校",
+    "prefecture": "兵庫県",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 65.0, \"cult_structure\": 50.0, \"cult_diversity\": 50.0, \"cult_intensity\": 70.0, \"cult_mentor\": 52.0, \"cult_creativity\": 58.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 7,
+    "school_name": "洛南高等学校附属中学校",
+    "prefecture": "京都府",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 43.0, \"cult_structure\": 64.0, \"cult_diversity\": 57.0, \"cult_intensity\": 56.0, \"cult_mentor\": 56.0, \"cult_creativity\": 53.0, \"cult_competition\": 50.0, \"cult_community\": 62.0, \"cult_internationality\": 51.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 8,
+    "school_name": "広尾学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 65.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 59.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 9,
+    "school_name": "神戸女学院中学部",
+    "prefecture": "兵庫県",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 10,
+    "school_name": "渋谷教育学園渋谷中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 65.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 59.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 11,
+    "school_name": "大妻中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 12,
+    "school_name": "神田女学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 13,
+    "school_name": "暁星中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 51.0, \"cult_structure\": 60.0, \"cult_diversity\": 48.0, \"cult_intensity\": 63.0, \"cult_mentor\": 60.0, \"cult_creativity\": 52.0, \"cult_competition\": 58.0, \"cult_community\": 64.0, \"cult_internationality\": 56.0, \"cult_spirituality\": 64.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 14,
+    "school_name": "共立女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 15,
+    "school_name": "麹町学園女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 16,
+    "school_name": "女子学院中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 17,
+    "school_name": "白百合学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 46.0, \"cult_structure\": 65.0, \"cult_diversity\": 48.0, \"cult_intensity\": 58.0, \"cult_mentor\": 64.0, \"cult_creativity\": 54.0, \"cult_competition\": 50.0, \"cult_community\": 65.0, \"cult_internationality\": 58.0, \"cult_spirituality\": 65.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 18,
+    "school_name": "千代田中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 19,
+    "school_name": "東京家政学院中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 20,
+    "school_name": "三輪田学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 21,
+    "school_name": "和洋九段女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 22,
+    "school_name": "開智日本橋学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 71.0, \"cult_structure\": 47.0, \"cult_diversity\": 68.0, \"cult_intensity\": 58.0, \"cult_mentor\": 54.0, \"cult_creativity\": 62.0, \"cult_competition\": 58.0, \"cult_community\": 51.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 48.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 23,
+    "school_name": "慶應義塾中等部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 24,
+    "school_name": "芝国際中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 71.0, \"cult_structure\": 47.0, \"cult_diversity\": 68.0, \"cult_intensity\": 58.0, \"cult_mentor\": 54.0, \"cult_creativity\": 62.0, \"cult_competition\": 58.0, \"cult_community\": 51.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 48.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 25,
+    "school_name": "芝中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 26,
+    "school_name": "頌栄女子学院中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 27,
+    "school_name": "聖心女子学院中等科",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 46.0, \"cult_structure\": 65.0, \"cult_diversity\": 48.0, \"cult_intensity\": 58.0, \"cult_mentor\": 64.0, \"cult_creativity\": 54.0, \"cult_competition\": 50.0, \"cult_community\": 65.0, \"cult_internationality\": 58.0, \"cult_spirituality\": 65.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 28,
+    "school_name": "高輪中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 29,
+    "school_name": "東海大学付属高輪台高等学校中等部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 30,
+    "school_name": "東洋英和女学院中学部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 31,
+    "school_name": "広尾学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 32,
+    "school_name": "普連土学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 46.0, \"cult_structure\": 65.0, \"cult_diversity\": 48.0, \"cult_intensity\": 58.0, \"cult_mentor\": 64.0, \"cult_creativity\": 54.0, \"cult_competition\": 50.0, \"cult_community\": 65.0, \"cult_internationality\": 58.0, \"cult_spirituality\": 65.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 33,
+    "school_name": "山脇学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 34,
+    "school_name": "海城中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 35,
+    "school_name": "学習院女子中等科",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 36,
+    "school_name": "成城中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 37,
+    "school_name": "成女学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 38,
+    "school_name": "目白研心中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 39,
+    "school_name": "早稲田中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 40,
+    "school_name": "青山学院中等部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 63.0, \"cult_structure\": 58.0, \"cult_diversity\": 66.0, \"cult_intensity\": 57.0, \"cult_mentor\": 57.0, \"cult_creativity\": 58.0, \"cult_competition\": 54.0, \"cult_community\": 60.0, \"cult_internationality\": 65.0, \"cult_spirituality\": 61.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 41,
+    "school_name": "実践女子学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 42,
+    "school_name": "東京女学館中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 43,
+    "school_name": "富士見丘中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 44,
+    "school_name": "跡見学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 63.0, \"cult_diversity\": 46.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 45,
+    "school_name": "郁文館中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 46,
+    "school_name": "京華女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 47,
+    "school_name": "京華中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 48,
+    "school_name": "駒込中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 49.0, \"cult_structure\": 58.0, \"cult_diversity\": 46.0, \"cult_intensity\": 61.0, \"cult_mentor\": 57.0, \"cult_creativity\": 50.0, \"cult_competition\": 56.0, \"cult_community\": 64.0, \"cult_internationality\": 48.0, \"cult_spirituality\": 64.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 49,
+    "school_name": "小石川淑徳学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 59.0, \"cult_structure\": 51.0, \"cult_diversity\": 64.0, \"cult_intensity\": 53.0, \"cult_mentor\": 59.0, \"cult_creativity\": 58.0, \"cult_competition\": 48.0, \"cult_community\": 57.0, \"cult_internationality\": 56.0, \"cult_spirituality\": 62.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 50,
+    "school_name": "貞静学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 56.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 51,
+    "school_name": "鷗友学園女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 64.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 61.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 52,
+    "school_name": "駒場東邦中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 53,
+    "school_name": "成城学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 63.0, \"cult_structure\": 56.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 61.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 54,
+    "school_name": "世田谷学園中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 49.0, \"cult_structure\": 58.0, \"cult_diversity\": 46.0, \"cult_intensity\": 61.0, \"cult_mentor\": 57.0, \"cult_creativity\": 50.0, \"cult_competition\": 56.0, \"cult_community\": 64.0, \"cult_internationality\": 48.0, \"cult_spirituality\": 64.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 55,
+    "school_name": "玉川聖学院中等部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 63.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 56,
+    "school_name": "品川女子学院中等部",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 57,
+    "school_name": "攻玉社中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 61.0, \"cult_structure\": 54.0, \"cult_diversity\": 50.0, \"cult_intensity\": 66.0, \"cult_mentor\": 52.0, \"cult_creativity\": 54.0, \"cult_competition\": 66.0, \"cult_community\": 58.0, \"cult_internationality\": 52.0, \"cult_spirituality\": 50.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 58,
+    "school_name": "香蘭女学校中等科",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 61.0, \"cult_diversity\": 51.0, \"cult_intensity\": 57.0, \"cult_mentor\": 62.0, \"cult_creativity\": 57.0, \"cult_competition\": 52.0, \"cult_community\": 63.0, \"cult_internationality\": 60.0, \"cult_spirituality\": 67.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 59,
+    "school_name": "青稜中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 63.0, \"cult_structure\": 52.0, \"cult_diversity\": 61.0, \"cult_intensity\": 61.0, \"cult_mentor\": 51.0, \"cult_creativity\": 57.0, \"cult_competition\": 60.0, \"cult_community\": 56.0, \"cult_internationality\": 55.0, \"cult_spirituality\": 49.0}",
+    "philosophy_summary": null
+  },
+  {
+    "id": 60,
+    "school_name": "吉祥女子中学校",
+    "prefecture": "東京都",
+    "lca_cluster": null,
+    "culture_profile": "{\"cult_autonomy\": 60.0, \"cult_structure\": 59.0, \"cult_diversity\": 50.0, \"cult_intensity\": 61.0, \"cult_mentor\": 56.0, \"cult_creativity\": 56.0, \"cult_competition\": 58.0, \"cult_community\": 59.0, \"cult_internationality\": 54.0, \"cult_spirituality\": 51.0}",
+    "philosophy_summary": null
+  }
+]

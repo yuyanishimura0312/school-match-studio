@@ -1,0 +1,92 @@
+[
+  {
+    "id": "arch_explorer",
+    "name_ja": "探究者",
+    "name_en": "Explorer",
+    "big_five_thresholds": "{\"O\": \">75\", \"C\": \">60\"}",
+    "holland_codes": "I,A",
+    "description": "知的好奇心が強く、新領域への探求を好む。研究者・学者の若年期典型。",
+    "population_pct": 0.12
+  },
+  {
+    "id": "arch_creator",
+    "name_ja": "創造者",
+    "name_en": "Creator",
+    "big_five_thresholds": "{\"O\": \">80\", \"N\": \">55\"}",
+    "holland_codes": "A,I",
+    "description": "内的世界が豊かで創作・表現に向かう。芸術家・作家の若年期典型。",
+    "population_pct": 0.08
+  },
+  {
+    "id": "arch_leader",
+    "name_ja": "リーダー型",
+    "name_en": "Leader",
+    "big_five_thresholds": "{\"E\": \">70\", \"C\": \">65\", \"A\": \"<60\"}",
+    "holland_codes": "E,S",
+    "description": "対人影響力と達成志向。経営者・政治家の若年期典型。",
+    "population_pct": 0.1
+  },
+  {
+    "id": "arch_caregiver",
+    "name_ja": "養育者",
+    "name_en": "Caregiver",
+    "big_five_thresholds": "{\"A\": \">75\", \"E\": \">55\"}",
+    "holland_codes": "S,A",
+    "description": "他者ケア志向。教師・医療専門家・NPO人の若年期典型。",
+    "population_pct": 0.15
+  },
+  {
+    "id": "arch_warrior",
+    "name_ja": "挑戦者",
+    "name_en": "Warrior",
+    "big_five_thresholds": "{\"E\": \">70\", \"C\": \">70\", \"N\": \"<40\"}",
+    "holland_codes": "E,R",
+    "description": "困難に立ち向かう型。アスリート・起業家の若年期典型。",
+    "population_pct": 0.07
+  },
+  {
+    "id": "arch_mediator",
+    "name_ja": "調停者",
+    "name_en": "Mediator",
+    "big_five_thresholds": "{\"A\": \">75\", \"O\": \">65\"}",
+    "holland_codes": "S,E",
+    "description": "対立調整・価値統合志向。外交官・調停者・コミュニティリーダーの若年期典型。",
+    "population_pct": 0.06
+  },
+  {
+    "id": "arch_craftsman",
+    "name_ja": "職人型",
+    "name_en": "Craftsman",
+    "big_five_thresholds": "{\"C\": \">80\", \"O\": \"40-65\"}",
+    "holland_codes": "R,C",
+    "description": "専門技能の磨き上げ志向。技術者・職人・専門家の若年期典型。",
+    "population_pct": 0.12
+  },
+  {
+    "id": "arch_introvert_thinker",
+    "name_ja": "内省思索者",
+    "name_en": "Introvert Thinker",
+    "big_five_thresholds": "{\"E\": \"<40\", \"O\": \">70\", \"N\": \">55\"}",
+    "holland_codes": "I,A",
+    "description": "内向的な思索・観察志向。哲学者・研究者の若年期典型。",
+    "population_pct": 0.09
+  },
+  {
+    "id": "arch_social_creator",
+    "name_ja": "社交創造者",
+    "name_en": "Social Creator",
+    "big_five_thresholds": "{\"E\": \">70\", \"O\": \">75\"}",
+    "holland_codes": "A,E",
+    "description": "社交性と創造性の両立。クリエイター・プロデューサーの若年期典型。",
+    "population_pct": 0.06
+  },
+  {
+    "id": "arch_steady",
+    "name_ja": "堅実型",
+    "name_en": "Steady",
+    "big_five_thresholds": "{\"C\": \">70\", \"A\": \">65\", \"N\": \"<45\"}",
+    "holland_codes": "C,S",
+    "description": "安定志向の堅実型。専門職・公務員の若年期典型。",
+    "population_pct": 0.15
+  }
+]
